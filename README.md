@@ -22,14 +22,24 @@ Vmess+websocket+TLS+Nginx+Website
 ```
 wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/SayingCode/BAKUP_V2Ray_ws-tls_bash_onekey/main/vmess_install.sh" && chmod +x install.sh && bash install.sh
 ```
-备份地址：https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_bash_onekey/master/install.sh
 
+[备份地址](https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_bash_onekey/master/install.sh)
+
+##### 也可以分两步
+ 第一步
+ ```
+ wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/SayingCode/BAKUP_V2Ray_ws-tls_bash_onekey/main/vmess_install.sh"
+ ```
+ 第二步
+ ```
+ chmod +x install.sh && bash install.sh
+ ```
 
 VLESS+websocket+TLS+Nginx+Website
 ```
 wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/SayingCode/BAKUP_V2Ray_ws-tls_bash_onekey/main/VLESS_INSTALL.sh" && chmod +x install.sh && bash install.sh
 ```
-https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_bash_onekey/dev/install.sh
+[备份地址](https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_bash_onekey/dev/install.sh)
 
 ### 注意事项
 * 如果你不了解脚本中各项设置的具体含义，除域名外，请使用脚本提供的默认值
