@@ -96,6 +96,10 @@ wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.c
 
 停止 Nginx：`systemctl stop nginx`
 
+查看Nginx：`systemctl status v2ray`
+
+查看V2ray：`systemctl status nginx`
+
 ### 相关目录
 
 Web 目录：`/home/wwwroot/3DCEList`
